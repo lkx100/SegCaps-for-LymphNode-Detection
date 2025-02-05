@@ -25,41 +25,23 @@ This research project focuses on developing an advanced method for detecting lym
 
 ## Technologies Used
 
-- Python
-- TensorFlow / PyTorch (for deep learning implementations)
-- Pandas (for data manipulation)
+- Python3
+- TensorFlow2.x
 - Matplotlib (for data visualization)
-- ITK, MITK (for medical image processing)
-- RadiantViewer, 3D Slicer, ImageJ (for medical image viewing and analysis)
+- ImageJ, MITK (for medical image processing)
 
 ## Project Structure
 
 ```
-.
-├── data/
-│   ├── raw/
-│   └── processed/
-├── models/
-│   ├── cnn/
-│   └── capsule_net/
-├── src/
-│   ├── data_preprocessing/
-│   ├── model_training/
-│   ├── evaluation/
-│   └── visualization/
-├── notebooks/
-├── results/
-├── docs/
-├── requirements.txt
-└── README.md
+Will be updated soon!
 ```
 
 ## Setup and Installation
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/lymph-node-detection.git
-   cd lymph-node-detection
+   git clone https://github.com/lkx100/SegCaps-for-LymphNode-Detection.git
+   cd SegCaps-for-LymphNode-Detection
    ```
 
 2. Create a virtual environment and activate it:
@@ -81,7 +63,7 @@ This research project focuses on developing an advanced method for detecting lym
    pip install -r requirements.txt
    ```
 
-5. Download the necessary datasets and place them in the `data/raw/` directory.
+5. Download the necessary datasets and place them in the `data/` directory.
 
 ## Usage
 
@@ -106,4 +88,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any queries regarding this project, please contact [Your Name](mailto:your.email@example.com).
+For any queries regarding this project, please mail [here](lk5999950@gmail.com).
