@@ -6,10 +6,15 @@ import os
 # regex_pattern = "(" + "|".join([f"1-{num:03d}\\.dcm" for num in unique_ann]) + ")"
 # print(regex_pattern)
 
-txt_file_path = input("Enter the path to the text file: ")
+num = int(input())
+# make num a 3 digit number always. Like if num is 3, it should be 003
+num = str(num).zfill(3)
+txt_file_path = f"mnt/d/manifest-1680277513580/Others/MED_ABD_LYMPH_ANNOTATIONS/ABD_LYMPH_{num}/ABD_LYMPH_{num}_lymphnodes_indices.txt"
 
-if txt_file_path[-1] or txt_file_path[0] == '"':
-    txt_file_path = txt_file_path[1:-1]  # Remove quotes if present
+# txt_file_path = input("Enter the path to the text file: ")
+
+# if txt_file_path[-1] or txt_file_path[0] == '"':
+#     txt_file_path = txt_file_path[1:-1]  # Remove quotes if present
 
 # Check if the file exists
 if not os.path.isfile(txt_file_path):
